@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://www.thomascook.in/blog/wp-content/uploads/2017/09/Munnar_hillstation_kerala-Medium-1.jpg);
+   background-color: lightcoral;
     background-size:cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -26,7 +26,7 @@ h1{
  }
 
  #increment-btn, #save-btn{
-    background-color: maroon;
+    background-color: rgb(75, 3, 3);
     box-shadow: 0 9px #999;
 
  }

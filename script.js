@@ -1,7 +1,7 @@
 
 
 let countEl = document.getElementById("count-el");
-let previousClicks = localStorage.getItem;         ('clicks')?parseInt(localStorage.getItem('clicks')):0;
+let previousClicks = localStorage.getItem        ('clicks')?parseInt(localStorage.getItem('clicks')):0;
 countEl.textContent = previousClicks;
 let count = previousClicks;
 function increment()
@@ -13,7 +13,7 @@ function increment()
 
 
 let saveEl = document.getElementById("save-el");
-let saved = localStorage.getItem('savedEntries') ?localStorage.getItem('savedEntries'):"";
+let saved = localStorage.getItem('savedEntries')?localStorage.getItem('savedEntries'):"";
 
 saveEl.textContent = saved;
 let countStr = saved;
