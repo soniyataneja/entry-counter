@@ -13,7 +13,7 @@ function increment()
 
 
 let saveEl = document.getElementById("save-el")
-let saved = localStorage.getItem('savedEntries')?localStorage.getItem('savedEntries'):"";
+let saved = localStorage.getItem('savedEntries');
 saveEl.textContent = saved;
 let countStr = saved;
 
@@ -27,4 +27,4 @@ function save()
 
 }
 
-
+// ?localStorage.getItem('savedEntries'):""
